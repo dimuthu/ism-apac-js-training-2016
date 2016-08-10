@@ -1,0 +1,33 @@
+.bg1 .bg-anim {
+  background-image: url(../images/1.jpg);
+  background-repeat: repeat;
+}
+.bg2 .bg-anim {
+  background-image: url(../images/2.jpg);
+  background-repeat: repeat;
+}
+.bg3 .bg-anim {
+  background-image: url(../images/3.jpg);
+  background-repeat: repeat;
+}
+
+.bg-anim.col-1 {
+  background-position: 0 0;
+}
+.bg-anim.col-2{
+  background-position: -390px 0;
+}
+.bg-anim.col-3 {
+  background-position: -780px 0;
+}
+
+.bg-anim {
+  height: 600px;
+}
+
+.bg-anim a {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background: #f3f3f3;
+}
